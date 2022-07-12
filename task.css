@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 400px;
+    height: 300px;
+    margin: 20px auto;
+    border: 3px solid black;
+    padding: 20px;
+    position: relative;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+.sbox{
+    width: 70px;
+    height: 50px;
+    border: 2px solid gray;
+}
+.sbox h3{
+    text-align: center;
+    margin-top: 15px;
+}
+.control{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.control button{
+    padding: 5px 25px;
+    background: linear-gradient(45deg, black, gray);
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.attach{
+    width: 200px;
+    height: 150px;
+    border: 3px solid black;
+    position: absolute;
+    bottom: -9.5rem;
+    right: 23%;
+}
+
+.attach .show{
+    margin-top: 50px;
+    /* text-align: center; */
+}

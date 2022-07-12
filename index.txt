@@ -1,0 +1,17 @@
+section
+    div.atm-card
+        div.card-N
+        div.card-D
+        div.card-C
+        div.card-N
+
+    div.atm-form
+        div.card-number
+            input
+        div.card-date
+            select(month)
+            select(year)
+        div.card-cvv
+            input
+        div.card-name
+            input
